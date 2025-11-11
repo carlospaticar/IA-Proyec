@@ -2,34 +2,34 @@
     background-color: burlywood;
 } */
  /* Resetear estilos */
- *{
+  *{
     margin: 0;
     padding: 0;
- }
+  }
 
- header{
+header{
     background-color: #007acc;
     color: white;
     padding: 20px;
     text-align: center;
- }
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 10px;
- 
- }
+}
 
- nav ul li{
+nav ul li{
     margin: 0 15px;
- }
+}
 
- nav ul li a{
+nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
- }
+}
 
 /* h1 {
     color: blue;
@@ -50,7 +50,7 @@ footer{
     text-align: center;
     padding: 20px 0;
     position: relative;
-    bottom: 0;
+    
 }
 
 .contenido{
@@ -61,37 +61,41 @@ footer{
 .formulario{
     max-width: 500px;
     margin: 30px auto;
-    background-color: #d7e608;
+    background-color: #0a91c7;
     padding: 20px;
     border-radius: 8px;
 }
+
 .formulario h2{
     margin-bottom: 15px;
     text-align: center;
 }
+
 .formulario label{
     display: block;
     margin-top: 10px;
     font-weight: bold;
 }
+
 .formulario input,
 .formulario textarea {
     width: 90%;
-    padding: 20px;
+    padding: 10px;
     margin-top: 5px;
-    border: 1px solid #0000;
-    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
 }
 
 .formulario button{
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #0f0f0f;
+    background-color: #333;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
 }
+
 .formulario button:hover {
     background-color: #555;
 }
