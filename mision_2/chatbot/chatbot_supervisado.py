@@ -25,7 +25,7 @@ if __name__=="__main__":
         ("adiós","!hasta luego¡"),
         ("tu nombre","Soy un chatbot de ejemplo"),
         ("que puedes hacer"," Puedo responder preguntas simples basadas en ejemplos"),
-        ("",""),
+        
     ]
     model, vectorizer, unique_answers= buid_and_train_model(training_data)
     print("Chatbot supervisadi listo, Escribe 'salir' para terminar")
